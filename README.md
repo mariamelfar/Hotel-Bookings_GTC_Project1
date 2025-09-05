@@ -1,22 +1,46 @@
 Hotel Bookings Data Cleaning
 
-This repository contains a Jupyter Notebook focused on cleaning and preparing a hotel bookings dataset for analysis. The notebook walks through common data cleaning steps to transform raw data into a structured, reliable format.
+This repository contains a Jupyter Notebook dedicated to cleaning and transforming a hotel bookings dataset into a structured format suitable for analysis and modeling.
 
+🔹 Dataset Overview
 
+Original dataset: 119,390 rows × 32 columns
 
-🔹 Main Features
+After cleaning & processing:
 
-Handling missing values and duplicates
+Train shape: (69,916 × 86)
 
-Correcting inconsistent data entries
+Test shape: (17,480 × 86)
 
-Standardizing column formats and data types
+🔹 Cleaning & Processing Steps
 
-Removing irrelevant or redundant features
+Removed duplicates and irrelevant features
 
-Exporting a clean dataset for analysis or modeling
+Handled missing values and inconsistent data
 
+Standardized column formats and data types
 
+Reduced and restructured dataset into train/test splits
+
+🔹 Feature Engineering
+
+New features were created to enrich the dataset, including:
+
+total_guests – combined count of adults, children, and babies
+
+total_nights – total nights stayed per booking
+
+stay_duration – length of stay in days
+
+is_family – flag for family-related bookings
+
+is_repeated_guest – indicator for guest loyalty
+
+date/time – structured booking and stay dates
+
+Guest_related – features describing group dynamics
+
+price – standardized cost-related feature
 
 🔹 Tech Stack
 
@@ -26,24 +50,12 @@ Pandas, NumPy
 
 Jupyter Notebook
 
-
-
 🔹 Purpose
 
-The cleaned dataset can be used for:
+The final dataset is optimized for:
 
-Exploratory data analysis (EDA)
+Exploratory Data Analysis (EDA)
 
-Visualizing booking trends
+Booking trend visualization
 
-Building predictive models (e.g., cancellations, seasonal demand)
-
-
-
-🔹 This project can serve as a starting point for:
-
-Exploratory data analysis (EDA) on hotel booking patterns.
-
-Predictive modeling (e.g., predicting cancellations).
-
-Business insights into customer booking behavior.
+Predictive modeling (e.g., cancellations, demand forecasting)
