@@ -40,7 +40,7 @@ Building predictive models (e.g., cancellations, seasonal demand)
 
 
 
-This project can serve as a starting point for:
+🔹 This project can serve as a starting point for:
 
 Exploratory data analysis (EDA) on hotel booking patterns.
 
