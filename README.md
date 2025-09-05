@@ -1,30 +1,44 @@
 Hotel Bookings Data Cleaning
 
-This repository contains a Jupyter Notebook focused on cleaning and preprocessing a hotel bookings dataset. The project demonstrates essential data wrangling techniques to prepare raw booking data for further analysis, visualization, and modeling.
+This repository contains a Jupyter Notebook focused on cleaning and preparing a hotel bookings dataset for analysis. The notebook walks through common data cleaning steps to transform raw data into a structured, reliable format.
 
-🔹 Key Features
 
-Importing and exploring hotel bookings dataset.
 
-Handling missing values, duplicates, and inconsistent entries.
+🔹 Main Features
 
-Converting data types and formatting columns for consistency.
+Handling missing values and duplicates
 
-Removing outliers and irrelevant features.
+Correcting inconsistent data entries
 
-Creating a clean, structured dataset ready for analysis.
+Standardizing column formats and data types
 
-🔹 Technologies Used
+Removing irrelevant or redundant features
 
-Python 🐍
+Exporting a clean dataset for analysis or modeling
 
-Pandas
 
-NumPy
+
+🔹 Tech Stack
+
+Python
+
+Pandas, NumPy
 
 Jupyter Notebook
 
-🔹 Use Cases
+
+
+🔹 Purpose
+
+The cleaned dataset can be used for:
+
+Exploratory data analysis (EDA)
+
+Visualizing booking trends
+
+Building predictive models (e.g., cancellations, seasonal demand)
+
+
 
 This project can serve as a starting point for:
 
